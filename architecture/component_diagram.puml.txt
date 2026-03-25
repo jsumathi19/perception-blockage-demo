@@ -1,0 +1,8 @@
+@startuml
+package "Blockage Detection" {
+  [Input Frame] --> [Preprocessing]
+  [Preprocessing] --> [Feature Extraction]
+  [Feature Extraction] --> [Decision Logic]
+  [Decision Logic] --> [Output]
+}
+@enduml

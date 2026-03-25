@@ -1,0 +1,11 @@
+@startuml
+actor Camera
+participant Preprocessing
+participant FeatureExtraction
+participant Decision
+
+Camera -> Preprocessing: send frame
+Preprocessing -> FeatureExtraction: normalized frame
+FeatureExtraction -> Decision: blur, contrast
+Decision -> Camera: blockage flag
+@enduml

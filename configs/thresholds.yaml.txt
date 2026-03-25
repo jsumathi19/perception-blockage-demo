@@ -1,0 +1,2 @@
+blur_threshold: 100.0
+contrast_threshold: 0.3
