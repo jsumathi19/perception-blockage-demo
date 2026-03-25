@@ -19,3 +19,7 @@ Each requirement is linked to:
 - design
 - code
 - KPI validation
+
+## Architecture
+
+![Diagram](architecture/component_diagram.png)
