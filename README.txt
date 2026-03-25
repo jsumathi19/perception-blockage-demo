@@ -22,4 +22,4 @@ Each requirement is linked to:
 
 ## Architecture
 
-![Diagram](architecture/component_diagram.png)
+![Blockage Pipeline](architecture/component_diagram.png)
